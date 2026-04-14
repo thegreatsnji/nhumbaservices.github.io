@@ -355,7 +355,7 @@ const initFAQ = () => {
    WHATSAPP NUMBERS — dynamic link builder
    ============================================================ */
 const WHATSAPP_NUMBERS = {
-  guinea: '24595536314',
+  guinea: '245955360314',
   portugal: '351932751354'
 };
 
