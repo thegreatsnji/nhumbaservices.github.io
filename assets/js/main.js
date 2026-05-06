@@ -1,5 +1,5 @@
 /**
- * Nhumba Services — Main JavaScript
+ * Nhumbas Services — Main JavaScript
  * Form validation, navbar, smooth scroll, counters, AOS
  */
 
@@ -394,3 +394,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+

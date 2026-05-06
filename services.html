@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Serviços — Nhumbas Services | Vistos Portugal</title>
   <meta name="description" content="Vistos de Estudo, Trabalho, Tratamento Médico e Turismo para Portugal. Requisitos detalhados, checklist de documentos e agendamento VFS."/>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet"/>
@@ -14,7 +15,7 @@
   <link rel="stylesheet" href="assets/css/style.css"/>
   <!-- Schema for services -->
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Service","provider":{"@type":"LocalBusiness","name":"Nhumbas Services"},"serviceType":["Visa Application","VFS Global Appointment","Study Visa","Work Visa","Medical Visa","Tourist Visa"],"areaServed":{"@type":"Country","name":"Guinea-Bissau"}}
+  {"@context":"https://schema.org","@type":"Service","provider":{"@type":"LocalBusiness","name":"Nhumbas Services"},"serviceType":["Visa Application","VFS Global Appointment","Study Visa","Work Visa","Medical Visa","Tourist Visa","Family Reunification Visa","Other Visa"],"areaServed":{"@type":"Country","name":"Guinea-Bissau"}}
   </script>
 </head>
 <body>
@@ -77,6 +78,12 @@
         <button class="btn-outline-custom" data-filter="medico">
           <i class="fas fa-heartbeat"></i> Médico
         </button>
+        <button class="btn-outline-custom" data-filter="reagrupamento">
+          <i class="fas fa-users"></i> Reagrupamento Familiar
+        </button>
+        <button class="btn-outline-custom" data-filter="outros">
+          <i class="fas fa-ellipsis-h"></i> Outros
+        </button>
         <button class="btn-outline-custom" data-filter="turismo">
           <i class="fas fa-camera"></i> Turismo
         </button>
@@ -123,7 +130,7 @@
             <div class="timeline-item mb-2"><i class="fas fa-clock me-2"></i>Prazo de processamento: 15–30 dias úteis</div>
             <div class="timeline-item mb-2"><i class="fas fa-calendar me-2"></i>Validade: 1 ano (renovável)</div>
             <div class="timeline-item mb-3"><i class="fas fa-university me-2"></i>Para: Universidades, Politécnicos, Escolas profissionais</div>
-            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumba</h5>
+            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumbas</h5>
             <ul class="req-list">
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Candidate-se com pelo menos 3 meses de antecedência</li>
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Garanta saldo mínimo de €3.000 na conta bancária</li>
@@ -145,8 +152,8 @@
       <div class="visa-card-header" style="background:linear-gradient(135deg,#0056b3,#003d82);">
         <div class="visa-icon"><i class="fas fa-briefcase"></i></div>
         <div>
-          <h3 style="margin:0;color:#fff;">Visto de Trabalho</h3>
-          <p style="margin:0;color:rgba(255,255,255,.75);font-size:.95rem;">Para profissionais com contrato de trabalho em Portugal</p>
+          <h3 style="margin:0;color:#fff;">Visto de Trabalho Via Verde</h3>
+          <p style="margin:0;color:rgba(255,255,255,.75);font-size:.95rem;">A "Via Verde" para a imigração em Portugal é um protocolo que agiliza a emissão de vistos de trabalho (até 20 dias úteis após a entrevista) para estrangeiros com contratos celebrados com grandes empresas.</p>
           <div class="price-tag mt-2"><i class="fas fa-tag"></i> Serviço a partir de 150 XOF (neg.)</div>
         </div>
       </div>
@@ -168,11 +175,13 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <h5><i class="fas fa-info-circle me-2 text-primary"></i>Informações Importantes</h5>
-            <div class="timeline-item mb-2"><i class="fas fa-clock me-2"></i>Prazo de processamento: 20–45 dias úteis</div>
-            <div class="timeline-item mb-2"><i class="fas fa-calendar me-2"></i>Validade: Igual ao contrato (máx. 2 anos)</div>
-            <div class="timeline-item mb-3"><i class="fas fa-briefcase me-2"></i>Para: Emprego por conta de outrem ou própria</div>
-            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumba</h5>
+            <h5><i class="fas fa-info-circle me-2 text-primary"></i>Informações Via Verde</h5>
+            <div class="timeline-item mb-2"><i class="fas fa-bolt me-2"></i>Agilidade e Visto: A iniciativa visa facilitar a contratação de imigrantes, reduzindo o tempo de espera no consulado, com o pedido iniciado pela empresa contratante e não diretamente pelo trabalhador.</div>
+            <div class="timeline-item mb-2"><i class="fas fa-building me-2"></i>Requisitos das Empresas: Geralmente, as empresas precisam ter grande porte (ou pertencer a associações com acordos), faturamento expressivo e situação regular, sendo necessário garantir alojamento ao trabalhador.</div>
+            <div class="timeline-item mb-2"><i class="fas fa-file-alt me-2"></i>Documentação: O contrato deve ser formal e válido, seguindo o direito do trabalho português, com o processo envolvendo a AIMA e a rede consular.</div>
+            <div class="timeline-item mb-2"><i class="fas fa-seedling me-2"></i>Setores em Destaque: Agricultura, construção, tecnologia e engenharia são as áreas com maior adesão a este mecanismo de contratação.</div>
+            <div class="timeline-item mb-3"><i class="fas fa-exclamation-circle me-2"></i>Diferença Importante: A Via Verde não é um visto em si, mas uma facilitação procedimental para obter o visto de residência/trabalho. O trabalhador precisa ter a proposta/contrato de trabalho antes da imigração.</div>
+            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumbas</h5>
             <ul class="req-list">
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>O contrato de trabalho deve ter salário mínimo português</li>
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Autentique todos os diplomas no Ministério da Educação</li>
@@ -219,7 +228,7 @@
             <div class="timeline-item mb-2"><i class="fas fa-clock me-2"></i>Prazo urgente: 5–10 dias úteis</div>
             <div class="timeline-item mb-2"><i class="fas fa-calendar me-2"></i>Validade: Duração do tratamento</div>
             <div class="timeline-item mb-3"><i class="fas fa-hospital me-2"></i>Para: Cirurgias, tratamentos especializados, reabilitação</div>
-            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumba</h5>
+            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumbas</h5>
             <ul class="req-list">
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Em casos urgentes, processo pode ser acelerado</li>
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>O acompanhante também precisa de visto próprio</li>
@@ -266,7 +275,7 @@
             <div class="timeline-item mb-2"><i class="fas fa-clock me-2"></i>Prazo: 10–15 dias úteis</div>
             <div class="timeline-item mb-2"><i class="fas fa-calendar me-2"></i>Estadia máxima: 90 dias em 180 dias</div>
             <div class="timeline-item mb-3"><i class="fas fa-globe me-2"></i>Válido para toda a Zona Schengen</div>
-            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumba</h5>
+            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumbas</h5>
             <ul class="req-list">
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Saldo mínimo recomendado: €50/dia de estadia</li>
               <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Reservas de hotel são mais fáceis de cancelar do que bilhetes</li>
@@ -275,6 +284,99 @@
             <div class="mt-3">
               <a href="contact.html?visto=turismo" class="btn-primary-custom" style="background:linear-gradient(135deg,#27ae60,#1e8449);">
                 <i class="fas fa-calendar-check"></i> Agendar Visto de Turismo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REAGRUPAMENTO FAMILIAR -->
+    <div id="reagrupamento" data-category="reagrupamento" class="visa-detail-card mb-4" data-aos="fade-up">
+      <div class="visa-card-header" style="background:linear-gradient(135deg,#8e44ad,#6c3483);">
+        <div class="visa-icon"><i class="fas fa-home"></i></div>
+        <div>
+          <h3 style="margin:0;color:#fff;">Reagrupamento Familiar</h3>
+          <p style="margin:0;color:rgba(255,255,255,.75);font-size:.95rem;">Para reunir com familiares residentes legais em Portugal: cônjuge, filhos, pais ou dependentes.</p>
+          <div class="price-tag mt-2"><i class="fas fa-tag"></i> Serviço a partir de 150 XOF (neg.)</div>
+        </div>
+      </div>
+      <div class="visa-card-body">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h5><i class="fas fa-list-check me-2 text-primary"></i>Documentos Necessários</h5>
+            <ul class="req-list">
+              <li><i class="fas fa-check-circle req-icon"></i>Passaporte válido (+ 6 meses de validade)</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Formulário de pedido de visto preenchido</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Certidão de casamento, nascimento ou outro documento de parentesco</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Cartão de residência ou título de residência do familiar em Portugal</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Comprovativo de alojamento em Portugal</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Comprovativo de meios de subsistência do familiar</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Seguro de saúde válido em Portugal</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Certificado de antecedentes criminais</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Declaração de compromisso de manutenção do familiar residente</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5><i class="fas fa-info-circle me-2 text-primary"></i>Informações Importantes</h5>
+            <div class="timeline-item mb-2"><i class="fas fa-clock me-2"></i>Prazo: 45–90 dias úteis, dependendo da avaliação consular.</div>
+            <div class="timeline-item mb-2"><i class="fas fa-calendar me-2"></i>Validade: Geralmente 1 ano, renovável conforme o vínculo familiar.</div>
+            <div class="timeline-item mb-3"><i class="fas fa-users me-2"></i>Para: Cônjuge, filhos menores, filhos dependentes, pais e outros dependentes imediatamente ligados.</div>
+            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumbas</h5>
+            <ul class="req-list">
+              <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Traduza juramentadamente certidões e documentos de família.</li>
+              <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Inclua provas de habitação adequada e rendimentos suficientes.</li>
+              <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Considere o apoio de AIMA e do consulado para validar o vínculo familiar.</li>
+            </ul>
+            <div class="mt-3">
+              <a href="contact.html?visto=reagrupamento" class="btn-primary-custom">
+                <i class="fas fa-calendar-check"></i> Agendar Reagrupamento Familiar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUTROS -->
+    <div id="outros" data-category="outros" class="visa-detail-card mb-4" data-aos="fade-up">
+      <div class="visa-card-header" style="background:linear-gradient(135deg,#d35400,#e67e22);">
+        <div class="visa-icon"><i class="fas fa-briefcase-medical"></i></div>
+        <div>
+          <h3 style="margin:0;color:#fff;">Outros Vistos</h3>
+          <p style="margin:0;color:rgba(255,255,255,.75);font-size:.95rem;">Para regimes especiais, como empreendedorismo, investigação, artista, voluntariado ou outros vistos de residência.</p>
+          <div class="price-tag mt-2"><i class="fas fa-tag"></i> Serviço a partir de 150 XOF (neg.)</div>
+        </div>
+      </div>
+      <div class="visa-card-body">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h5><i class="fas fa-list-check me-2 text-primary"></i>Documentos Necessários</h5>
+            <ul class="req-list">
+              <li><i class="fas fa-check-circle req-icon"></i>Passaporte válido (+ 6 meses de validade)</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Formulário de pedido de visto</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Proposta de projeto, plano de negócios ou carta de convite</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Comprovativo de alojamento em Portugal</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Comprovativo de meios de subsistência</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Seguro de saúde válido em Portugal</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Certificado de antecedentes criminais</li>
+              <li><i class="fas fa-check-circle req-icon"></i>Documentos específicos do regime solicitado (carta de aceitação, acordo de cooperação, convite cultural)</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5><i class="fas fa-info-circle me-2 text-primary"></i>Informações Importantes</h5>
+            <div class="timeline-item mb-2"><i class="fas fa-clock me-2"></i>Prazo: 20–60 dias úteis, dependendo do tipo de visto e aprovação das entidades competentes.</div>
+            <div class="timeline-item mb-2"><i class="fas fa-calendar me-2"></i>Validade: Variável, de acordo com o regime e a atividade.</div>
+            <div class="timeline-item mb-3"><i class="fas fa-star me-2"></i>Inclui: empreendedorismo, investigação científica, artistas, voluntariado e outros casos especiais.</div>
+            <h5 class="mt-3"><i class="fas fa-lightbulb me-2 text-primary"></i>Dicas da Nhumbas</h5>
+            <ul class="req-list">
+              <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Escolha o regime certo antes de submeter o pedido.</li>
+              <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Reúna o máximo de documentação de suporte para o projeto ou convite.</li>
+              <li><i class="fas fa-star req-icon" style="color:var(--accent)"></i>Procure orientação especializada para casos que exigem aprovação de entidades como IEFP, AICEP ou universidades.</li>
+            </ul>
+            <div class="mt-3">
+              <a href="contact.html?visto=outros" class="btn-primary-custom">
+                <i class="fas fa-calendar-check"></i> Agendar Outro Visto
               </a>
             </div>
           </div>
@@ -355,7 +457,7 @@
           <a href="https://wa.me/245955360314" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="mailto:info@nhumbaservices.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="mailto:info@Nhumbaservices.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
       <div class="col-lg-2 col-md-6 col-6">
@@ -374,6 +476,8 @@
           <li><a href="#estudo"><i class="fas fa-chevron-right"></i> Visto de Estudo</a></li>
           <li><a href="#trabalho"><i class="fas fa-chevron-right"></i> Visto de Trabalho</a></li>
           <li><a href="#medico"><i class="fas fa-chevron-right"></i> Tratamento Médico</a></li>
+          <li><a href="#reagrupamento"><i class="fas fa-chevron-right"></i> Reagrupamento Familiar</a></li>
+          <li><a href="#outros"><i class="fas fa-chevron-right"></i> Outros Vistos</a></li>
           <li><a href="#turismo"><i class="fas fa-chevron-right"></i> Visto de Turismo</a></li>
         </ul>
       </div>
@@ -401,3 +505,5 @@
 <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
